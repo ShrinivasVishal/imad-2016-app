@@ -13,11 +13,11 @@ app.get('/article-one', funtion (req, res) {
   res.send("article one requested and will be sent here");
 });
 
-app.get('/article-two', funtion (req, res){
+app.get('/article-two', funtion (req, res) {
   res.send("article two requested and will be sent here");
 });
 
-app.get('/article-three', funtion (req, res){
+app.get('/article-three', funtion (req, res) {
   res.send("article three requested and will be sent here");
 });
 
